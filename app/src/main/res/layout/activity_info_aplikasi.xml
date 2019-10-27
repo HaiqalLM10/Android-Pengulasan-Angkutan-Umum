@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgrey"
+    tools:context="com.example.haiqa.pengulasanfb.InfoAplikasi">
+
+    <ImageView
+        android:id="@+id/imggunadarmalogo"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/gunadarma"
+        />
+
+    <TextView
+        android:id="@+id/tvinfo0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Aplikasi Informasi dan Pengulasan Angkutan Umum Dengan Metode Barcode Berbasis Android"
+        android:layout_below="@+id/imggunadarmalogo"
+        android:textSize="18sp"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvinfo0"
+        android:textColor="@color/yellow"
+        android:text="Nama : Haiqal Muhamad Alfarisi"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvinfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvinfo1"
+        android:textColor="@color/yellow"
+        android:text="Kelas  : 3IA18"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvinfo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvinfo2"
+        android:textColor="@color/yellow"
+        android:text="NPM   : 53415003"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+
+</RelativeLayout>
+

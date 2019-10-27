@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgrey1"
+    tools:context="com.example.haiqa.pengulasanfb.InformasiTigaActivity">
+
+    <ImageView
+        android:src="@drawable/ww3"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/Pikachu_Face" />
+
+    <TextView
+        android:id="@+id/informasi_ang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pikachu_Face"
+        android:layout_centerHorizontal="true"
+        android:text="Informasi Angkutan"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/nm_supir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Supir  = "
+        android:textSize="20dp"
+        android:layout_below="@id/informasi_ang"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/nama_supir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Djunaidi"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/nm_supir"
+        android:layout_alignBottom="@id/nm_supir"
+        />
+
+    <TextView
+        android:id="@+id/plat_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plat Nomor   ="
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/nm_supir"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/plat_nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  B 3621 QO"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/plat_no"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@id/plat_no" />
+
+    <TextView
+        android:id="@+id/jenis_ken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis              ="
+        android:textSize="20dp"
+        android:layout_below="@id/plat_no"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/jenis_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  KWK T30"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/jenis_ken"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@id/jenis_ken"/>
+
+    <TextView
+        android:id="@+id/trayek_ken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trayek            ="
+        android:textSize="20dp"
+        android:layout_below="@id/jenis_ken"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/trayek_kendaraan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Pulogadung - Ujung Menteng"
+        android:textSize="17sp"
+        android:layout_toRightOf="@id/trayek_ken"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@id/trayek_ken"/>
+
+    <TextView
+        android:id="@+id/tarif_maks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarif Maks     ="
+        android:textSize="20dp"
+        android:layout_below="@id/trayek_ken"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tarif_maksimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 6000"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/tarif_maks"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/tarif_maks"
+        />
+
+    <Button
+        android:id="@+id/bt_createulasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tarif_maks"
+        android:layout_marginTop="50dp"
+        android:text="TAMBAH ULASAN" />
+
+    <Button
+        android:id="@+id/bt_viewulasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_createulasan"
+        android:layout_alignBottom="@+id/bt_createulasan"
+        android:layout_toEndOf="@+id/bt_createulasan"
+        android:layout_toRightOf="@+id/bt_createulasan"
+        android:text="Lihat Ulasan"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/bt_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_viewulasan"
+        android:layout_alignBottom="@+id/bt_viewulasan"
+        android:layout_toEndOf="@+id/bt_viewulasan"
+        android:layout_toRightOf="@+id/bt_viewulasan"
+        android:text="Alamat Map"
+        android:padding="5dp"/>
+
+</RelativeLayout>

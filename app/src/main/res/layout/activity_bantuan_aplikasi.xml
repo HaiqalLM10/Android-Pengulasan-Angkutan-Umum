@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgrey"
+    tools:context="com.example.haiqa.pengulasanfb.BantuanAplikasi">
+
+    <TextView
+        android:id="@+id/bantuannol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANTUAN APLIKASI"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/bantuansatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bantuannol"
+        android:text="Jika ingin memulai Scan QR Code, tekan icon kamera untuk memulai.Sesuaikan barcode yang tersedia dengan kamera Anda"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/bantuandua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bantuansatu"
+        android:text="Terdapat informasi-Informasi baik dari angkutan maupun supir. Informasi tersebut berguna untuk mengecek kesesuaian dan kelayakan angkutan."
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/bantuantiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bantuandua"
+        android:text="Penumpang dapat memberi penilaian terhadap pelayanan dari angkutan yang telah dinaiki dengan menambah dan mengisi ulasan yang telah disediakan."
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
